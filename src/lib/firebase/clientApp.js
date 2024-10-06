@@ -2,7 +2,9 @@
 
 import { initializeApp, getApps } from "firebase/app";
 import { firebaseConfig } from "./config";
+console.log('show config:', process.env.NEXT_PUBLIC_FIREBASE_API_KEY);
 import { getAuth } from "firebase/auth";
+
 import { getFirestore } from "firebase/firestore";
 import { getStorage } from "firebase/storage";
 export const firebaseApp =
