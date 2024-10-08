@@ -1,20 +1,3 @@
 env:
-  # Get these values from the Firebase console
-  - variable: NEXT_PUBLIC_FIREBASE_API_KEY
-    value: "AIzaSyCNlsUGqVB-m91O73LUt0bCl7V5VINYgrA"
 
-  - variable: NEXT_PUBLIC_FIREBASE_AUTH_DOMAIN
-    value: "food-take5.firebaseapp.com"
-
-  - variable: NEXT_PUBLIC_FIREBASE_PROJECT_ID
-    value: "food-take5"
-
-  - variable: NEXT_PUBLIC_FIREBASE_STORAGE_BUCKET
-    value: "food-take5.appspot.com"
-
-  - variable: NEXT_PUBLIC_FIREBASE_MESSAGING_SENDER_ID
-    value: "588378729833"
-
-  - variable: NEXT_PUBLIC_FIREBASE_APP_ID
-    value: "1:588378729833:web:f381d98d232487b315e1f8"
     
