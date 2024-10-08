@@ -14,7 +14,7 @@ self.addEventListener('install', event => {
   }
   
   firebaseConfig = JSON.parse(serializedFirebaseConfig);
-  console.log("Service worker installed with Firebase config", firebaseConfig);
+
 });
 
 self.addEventListener("fetch", (event) => {
