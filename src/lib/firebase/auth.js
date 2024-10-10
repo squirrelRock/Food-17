@@ -7,6 +7,7 @@ import {
 import { auth } from "@/src/lib/firebase/clientApp";
 
 export function onAuthStateChanged(cb) {
+  console.log("onAuthStateChanged called");
   return _onAuthStateChanged(auth, cb);
 }
 
@@ -15,6 +16,7 @@ const provider = new GoogleAuthProvider();
 
 try {
 await signInWithPopup(auth, provider);
+console.log("google sign-in successful!");
 } catch (error) {
 console.error("Error signing in with Google", error);
 }
