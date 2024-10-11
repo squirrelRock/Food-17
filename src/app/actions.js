@@ -9,8 +9,7 @@ import { getFirestore } from "firebase/firestore";
 
 
 
-// This is a next.js server action, which is an alpha feature, so
-// use with caution.
+
 // https://nextjs.org/docs/app/building-your-application/data-fetching/server-actions
 export async function handleReviewFormSubmission(data) {
     const { app } = await getAuthenticatedAppForUser();
