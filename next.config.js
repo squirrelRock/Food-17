@@ -1,6 +1,11 @@
 /** @type {import('next').NextConfig} */
-const nextConfig = {
+/* FROM TUTORIAL, BUT NO LONGER NEEDED
 
+const nextConfig = {
+	experimental: {
+		serverActions: true,
+	}
 };
 
 module.exports = nextConfig;
+*/
