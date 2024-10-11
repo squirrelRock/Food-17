@@ -16,7 +16,11 @@
       "port": 9199
     },
     "ui": {
-      "enabled": true
+  "enabled": true
+    },
+    "singleProjectMode": true,
+    "hosting": {
+      "port": 5000
     }
   },
   "firestore": {
