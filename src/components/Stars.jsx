@@ -3,7 +3,7 @@
 export default function renderStars(avgRating) {
 	const arr = [];
 	for (let i = 0; i < 5; i++) {
-		if (i < Math.floor(avgRating)) {
+		if (i < Math.floor(avgRating))  {
 			arr.push(
 				<li key={i}>
 					<svg
