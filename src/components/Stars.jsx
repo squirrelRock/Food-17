@@ -20,7 +20,7 @@ export default function renderStars(avgRating) {
 					</svg>
 				</li>
 			);
-		} else {
+		} else  {
 			arr.push(
 				<li key={i}>
 					<svg
