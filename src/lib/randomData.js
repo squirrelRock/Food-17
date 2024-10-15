@@ -63,6 +63,7 @@ export const randomData = {
 		"Italian",
 		"Chinese",
 		"Japanese",
+		"British",
 		"Mexican",
 		"Indian",
 		"Mediterranean",
@@ -72,6 +73,7 @@ export const randomData = {
 		"Russian",
 		"Cuban",
 		"Organic",
+		"Middle Eastern",
 		"Tapas",
 	],
 	restaurantReviews: [
