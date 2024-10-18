@@ -12,7 +12,7 @@ export async function GeminiSummary({ restaurantId }) {
     restaurantId
   );
 
-  const genAI = new GoogleGenerativeAI(process.env.GEMINI_API_KEY);
+  const genAI = new GoogleGenerativeAI(process.env.NEXT_PUBLIC_GEMINI_API_KEY);
   // modified call to avoid [GoogleGenerativeAI Error]: Candidate was blocked due to SAFETY
   // from https://ai.google.dev/gemini-api/docs/safety-settings#node.js
   // ORIGINAL LINE: const model = genAI.getGenerativeModel({ model: "gemini-pro"});
@@ -54,7 +54,14 @@ export async function GeminiSummary({ restaurantId }) {
     const text = response.text();
 
     return (
-      <div className="restaurant__review_summary">
+      <div className="restaurant__review_summary"
+      style={{
+        margin: '10px 0', 
+        padding: '10px', 
+        border: '1px solid white',
+        borderRadius: '8px' ,
+        backgroundColor: 'rgba(0, 0, 0, 0.5)', 
+      }}>
         <p>{text}</p>
         <p>✨ Summarized with Gemini</p>
       </div>
