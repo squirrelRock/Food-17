@@ -1,6 +1,6 @@
 // This component displays star ratings
 
-export default function renderStars(avgRating) {
+export default function renderStars(avgRating)  {
 	const arr = [];
 	for (let i = 0; i < 5; i++) {
 		if (i < Math.floor(avgRating))  {
