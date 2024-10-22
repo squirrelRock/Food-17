@@ -46,7 +46,7 @@ export async function GeminiSummary({ restaurantId }) {
     Here are the reviews: ${reviews.map(review => review.text).join(reviewSeparator)}
   `;
   
-  // const prompt = "Write a story about a magic backpack.";
+  
 
   try {
     const result = await model.generateContent(prompt);
