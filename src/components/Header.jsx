@@ -70,7 +70,7 @@ export default function Header({initialUser}) {
 		<header>
 			<Link href="/" className="logo">
 				<img src="/friendly-eats.svg" alt="FriendlyEats" />
-				Restaurant Traveler
+				Rave On Restaurant Reviews
 			</Link>
 			{user ? (
 				<>
